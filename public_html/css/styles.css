@@ -1,8 +1,52 @@
 @charset "UTF-8";
 
-body {
-	margin: 25px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
+
+body {
+  font-family: 'Uber Move Text','BlinkMacSystemFont',-apple-system,'Roboto','Lucida Sans';
+  background-color: black;
+  color: #535353;
+  display: block;
+}
+
+h1 {
+  color: white;
+  padding: 1em;
+}
+
+h2 {
+  color: white;
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+
+h3 {
+  color: white;
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+
+p {
+  padding: 0 0 1em 0;
+
+}
+
+a {
+  color: green;
+}
+
+.hero {
+  background-color: grey;
+  width: 100%;
+}
+
+.main-body {
+  margin: 1em;
+}
+
 
 .center {
   display: block;
